@@ -1,0 +1,31 @@
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.todo-item.completed {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.todo-item .delete-button {
+    background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.todo-item .complete-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
